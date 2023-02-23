@@ -1,0 +1,2 @@
+<?= \Roots\view('partials.comments', $data ?? get_defined_vars())->render(); ?>
+<?php /**PATH /home/felipe/Documents/projetos/cura/wordpress/wp-content/themes/cura-amazonica/resources/views/partials/comments.blade.php ENDPATH**/ ?>
