@@ -4,7 +4,7 @@
     data-te-navbar-ref>
     <div class="flex w-full flex-wrap items-center justify-start px-6">
       <div class="flex items-center">
-        <!--botão de menu responsivo -->
+      <!--botão de menu responsivo -->
         <button
           class="mr-2 border-0 bg-transparent py-2 text-xl leading-none transition-shadow duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:hidden"
           type="button"
@@ -29,11 +29,14 @@
           </span>
         </button>
       </div>
-      <img class="w-1/12 h-1/12" src="@asset('images/logo_cura_nome.png')" >
+      
       <div
         class="!visible hidden grow basis-[100%] items-center lg:!flex lg:basis-auto"
         id="navbarSupportedContentY"
         data-te-collapse-item>
+        <div class="w-min" >
+          <img class="w-1/6 h-1/6" src="@asset('images/logo_cura_nome.png')" >
+        </div>
         <ul
           class="mr-auto flex flex-col lg:flex-row"
           data-te-navbar-nav-ref>
@@ -44,7 +47,7 @@
               data-te-nav-link-ref
               data-te-ripple-init
               data-te-ripple-color="light"
-              >Sobre a Cura</a
+              >História</a
             >
           </li>
           <li data-te-nav-item-ref>
@@ -54,17 +57,7 @@
               data-te-nav-link-ref
               data-te-ripple-init
               data-te-ripple-color="light"
-              >Experimente a Cura</a
-            >
-          </li>
-          <li data-te-nav-item-ref>
-            <a
-              class="block transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:hover:text-white dark:focus:text-white lg:p-2 [&.active]:text-black/90"
-              href="#!"
-              data-te-nav-link-ref
-              data-te-ripple-init
-              data-te-ripple-color="light"
-              >Projetos</a
+              >Agenda</a
             >
           </li>
           <li data-te-nav-item-ref>
@@ -84,7 +77,7 @@
               data-te-nav-link-ref
               data-te-ripple-init
               data-te-ripple-color="light"
-              >Babados Novos</a
+              >Blog</a
             >
           </li>
           <li data-te-nav-item-ref>
