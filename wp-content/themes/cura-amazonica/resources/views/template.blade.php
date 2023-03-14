@@ -1,16 +1,11 @@
 {{--
-  Template Name: teste
+  Template Name: Menu
 --}}
 
 @extends('layouts.app')
 
 @section('content')   
   <div>
-    Nossa home 
-
-    {{ get_the_title() }}
-    {{ the_content() }}
-
-    @include('sections.teste')
+    @include('sections.menu')
   </div>
 @endsection
